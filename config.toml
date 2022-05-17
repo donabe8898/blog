@@ -26,13 +26,16 @@ favicon = "/images/favicon.ico"
 logo_text = "どな部屋"
 main_menu = [
 	{url="/profile/", name="プロフィール"},
-	{url="/train/", name="鉄道"},
-	{url="/programming/", name="プログラミン"},
+	{url="/train/", name="乗鉄日記"},
+	{url="/programming/", name="Programming"},
+	{url="/pgp/", name="PGP", external=true},
 	{url="https://github.com/donabe8898", name="GitHub", external=true},
+	{url="https://donabe8898.dev", name="donabe8898.dev", external=true},
+
 ]
 menu_more = "show more"
 read_more="りーどモア"
 read_other_posts = "もっと見る"
 enable_katex = true
-
+center = true
 disqus = { enabled=false, short_name="donalog" }
