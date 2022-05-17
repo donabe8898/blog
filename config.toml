@@ -1,57 +1,38 @@
 base_url = "/"
-title = "donabe8898"
-description = "The page of donabe8898"
+title = "donabe"
+description="The front page of donabeeeeee"
 default_language = "ja"
-output_dir = "public"
-compile_sass = true
-build_search_index = false
-
-theme = "zhuia"
 generate_feed = true
-feed_filename = "rss.xml"
+theme = "zerm"
+compile_sass=true
 
+highlight_theme = "axar"
+build_search_index = false
 taxonomies = [
-           {name = "tags"},
-           {name = "categories"},
+           {name = "tags", feed = true},
+           {name = "categories", feed = true},
 ]
 [markdown]
 highlight_code = true
-
 [extra]
-grid_size = "grid-lg"
-author = "donabe"
-show_author = true
-show_tags = true
+author="donabe"
+show_author = false
 show_categories = true
-read_more_prompt = "read more"
-read_post_prompt = "read post"
-
-hamburger_menu = true
-
+show_tags = true
+theme_color = "blue"
+show_menu_items = 3
+full_width = false
+favicon = "/images/favicon.ico"
+logo_text = "どな部屋"
 main_menu = [
-    {url="/about", name="about me"},
-    {url="/tags/", name="tags"},
-    {url="/categories/", name="categories"},          
+	{url="/profile/", name="プロフィール"},
+	{url="/train/", name="鉄道"},
+	{url="/programming/", name="プログラミン"},
+	{url="https://github.com/donabe8898", name="GitHub", external=true},
 ]
+menu_more = "show more"
+read_more="りーどモア"
+read_other_posts = "もっと見る"
+enable_katex = true
 
-social_links = [
-    {url = "https://twitter.com/A10donabe", name = "twitter"},
-    {url = "https://github.com/donabe8898", name = "github"},
-    # {url = "", name = "instagram"},
-    # {url = "", name = "facebook"},
-]
-[extra.sidebar]
-active=true
-text_snippet="アイコンは所謂脱法めるアイコンです。描いた人のtwitterID : @sugardegu2"
-
-author_bio = "ゲームと乗り鉄が趣味の情報系大学生。つよくなりたい..."
-author_avatar = "KobayashiKanna_.png"
-
-tweets_by="A10donabe"
-
-popular_tags=false
-archive=false
-related_posts=false
-
-#========================
-
+disqus = { enabled=false, short_name="donalog" }
