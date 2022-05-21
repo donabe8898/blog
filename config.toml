@@ -3,6 +3,7 @@ title = "donabe"
 description="The front page of donabeeeeee"
 default_language = "ja"
 generate_feed = true
+feed_filename = "rss.xml"
 theme = "zerm"
 compile_sass=true
 
