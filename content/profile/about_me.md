@@ -12,7 +12,7 @@ path = "profile"
 - 大阪電気通信大学　鉄道研究サークル（若干幽霊）
 - Minecraftゲームコミュニティ「PostMineClan」の技術部っぽい何か
 
-# SNS（私生活バレちゃう(/ω＼)ｲﾔﾝ）
+# SNS
 - twitter: [@A10donabe](https://twitter.com/A10donabe)
 - twitter（サブ）: [@yuugoo19](https://twitter.com/yuugoo19)
 - instagram: [a10_donabe](https://www.instagram.com/a10_donabe/)
