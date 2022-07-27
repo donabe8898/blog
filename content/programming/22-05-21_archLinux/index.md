@@ -6,7 +6,7 @@ date = 2022-05-21
 [taxonomies]
 categories = ["blog"]
 tags = ["ArchLinux","OS","Linux"]
-+++
+++
 
 # WindowsPCにArchLinuxをインストールしてrEFIndでデュアルブート
 先日、N700Sのグリーン車に乗っていたら急にArchLinuxを使いたくなったので自分のＰＣにインストールしました。
