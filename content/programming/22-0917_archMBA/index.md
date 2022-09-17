@@ -1,7 +1,6 @@
 +++
 title = "T2チップ搭載MacBookAirにArchLinuxをインストールする"
 description = "意外とすんなり入ります"
-paginate_by = 3
 date = 2022-09-17
 [extra]
 [taxonomies]
