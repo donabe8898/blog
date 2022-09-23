@@ -4,8 +4,8 @@ description = "意外とすんなり入ります"
 date = 2022-09-17
 [extra]
 [taxonomies]
-categories = ["blog","MacBookAir"]
-tags = ["ArchLinux"]
+categories = ["blog"]
+tags = ["ArchLinux","Apple","MacBookAir"]
 +++
 
 AppleT2セキュリティチップを搭載するMacBookAir9,1にArchLinuxをインストールしたので備忘録だにょ.
